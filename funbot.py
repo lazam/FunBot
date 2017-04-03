@@ -12,7 +12,6 @@ import os
 import json
 import requests
 import urllib
-from xml.dom import minidom
 from requests_oauthlib import OAuth1
 
 
@@ -79,7 +78,6 @@ class FunBot(BotPlugin):
             return "Wrong Input. Please see help."
         return message
 
-    #def indeed_request(self, query, country, location):
     def indeed_request(*args):
         message = ""
         base_url = "http://api.indeed.com/ads/apisearch?publisher=%s&v=2" % (indeedID)
