@@ -1,0 +1,7 @@
+weatherKey = ""
+yelpConsumer = ""
+yelpSecret = ""
+yelpToken = ""
+yelpTokenSecret = ""
+zomatoKey = ""
+indeedID = ""

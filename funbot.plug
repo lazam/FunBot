@@ -1,0 +1,9 @@
+[Python]
+Version=3
+
+[Core]
+Name = FunBot
+Module = funbot
+
+[Documentation]
+Description = Bot for fun!
